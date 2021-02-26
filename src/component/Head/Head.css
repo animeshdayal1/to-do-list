@@ -1,0 +1,35 @@
+.Head{
+  
+    background-color: black;
+    color:burlywood;
+    font-size: 30px;
+    text-align: center;
+    display:flex;
+    padding:20px;
+    width:80%;
+    margin:auto
+    
+}
+
+.Input{
+    width:80%;
+    height: 30px;
+    margin:auto
+}
+
+.Task{
+    width:80%;
+    background-color: lightblue;
+    font-size: 30px;
+    padding:10px;
+    margin:auto
+}
+.ButtonX{
+    float: right;
+    background-color: red;
+}
+
+.ButtonD{
+    float: left;
+    background-color: chartreuse;
+}
