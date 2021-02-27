@@ -15,7 +15,7 @@ const list =(props)=>{
                   >
                       <button className={'ButtonD'} >done</button>
                      {list}
-                      <button className={'ButtonX'} onClick={this.deleteList}>x</button>
+                      <button className={'ButtonX'} onClick={(key)=>this.deleteList(key)}>x</button>
                   </li>
                      )
               })}

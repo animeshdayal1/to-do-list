@@ -3,24 +3,30 @@ import '../../component/Head/Head.css'
 
 const list =(props)=>{
     return(
-
-        <ul className={'Task'}>
-        {props.list.map((list ,index) => {
+        <div>
+        <ul >
+        
+        {props.list.map((list ,key) => {
             return (
                  <li 
                   
                   className={'Task'} 
                   key={Math.random()} 
+                  id ={key}
                   
                   >
                       <button className={'ButtonD'} >done</button>
                      {list}
-                      <button className={'ButtonX'} onClick={props.deleteList}>x</button>
+                      <button className={'ButtonX'} onClick={()=>{
+
+                      props.deleteList(key)} }>x</button>
                   </li>
+                  
                      )
               })}
           {/* <li>{this.state.task}</li> */}
       </ul>
+      </div>
     )
 
 }

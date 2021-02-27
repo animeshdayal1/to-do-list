@@ -28,9 +28,9 @@ class Head extends Component{
    
     listItem=()=>[...this.state.list , this.state.task]
 
-    deleteList=(listIndex)=> {
+    deleteList=(id)=> {
         const list=this.state.list;
-        list.splice(listIndex ,1);
+        list.splice(id ,1);
         this.setState({list:list})
     }
 
@@ -46,11 +46,13 @@ class Head extends Component{
               onClickHandler={this.onClickHandler}
               task ={this.state.task} 
 
+
                />
 
              <List
                  list={this.state.list}
                  deleteList = {this.deleteList}
+                 id = {this.key}
 
              />
 

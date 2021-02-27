@@ -15,9 +15,9 @@ class App extends Component {
 
   render(){
   return (
-    <div className="App">
+    <div className={"App"}>
      
-        <h2 >
+        <h2 className={'H2'}>
          To Do List
 
         </h2>
