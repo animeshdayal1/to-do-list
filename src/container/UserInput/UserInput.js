@@ -14,7 +14,7 @@ const userInput=(props)=>{
                      
                  />
 
-                 <button onClick={props.onClickHandler}>Click to add</button>
+                 <button className={'Button'}onClick={props.onClickHandler}>Click to add</button>
 
                 </div>
     )

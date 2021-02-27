@@ -11,6 +11,9 @@
     
 }
 
+
+
+
 .Input{
     width:80%;
     height: 30px;
@@ -34,10 +37,18 @@
 
 .ButtonD{
     float: left;
-    background-color: chartreuse;
+    background-color: whitesmoke;
+}
+.ButtonD::active{
+    background-color:green;
 }
 
-.ButtonD::after{
-    float: left;
-    background-color: red;
+
+
+
+.Button{
+    color:burlywood
+}
+.Button:hover{
+    background-color:green
 }

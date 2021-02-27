@@ -15,7 +15,7 @@ const list =(props)=>{
                   id ={key}
                   
                   >
-                      <button className={'ButtonD'} >done</button>
+                      {/* <button className={'ButtonD'} >done</button> */}
                      {list}
                       <button className={'ButtonX'} onClick={()=>{
 
